@@ -6,6 +6,8 @@ require 'open-uri'
 class ImageExtractor
   class << self
     def parse(html:)
+      return [] unless html
+
       # filter for images
       html.css('img').map(&:to_s)
     end

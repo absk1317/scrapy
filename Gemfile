@@ -1,0 +1,7 @@
+gem 'awesome_print'
+gem 'nokogiri'
+gem 'pry'
+gem 'rake'
+gem 'rspec'
+gem 'rubocop'
+gem 'webmock'
