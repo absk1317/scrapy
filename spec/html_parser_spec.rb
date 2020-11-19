@@ -3,7 +3,7 @@
 require 'rspec'
 require 'webmock/rspec'
 
-require_relative './../html_parser'
+require_relative './../utils/html_parser'
 
 describe HtmlParser do
   context 'args validation' do

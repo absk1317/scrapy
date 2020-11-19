@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-require_relative './html_parser'
-require_relative './image_extractor'
+require_relative './utils/html_parser'
+require_relative './utils/image_extractor'
 
 # parse image tags in given webpage
 

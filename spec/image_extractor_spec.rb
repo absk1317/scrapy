@@ -3,8 +3,8 @@
 require 'rspec'
 require 'webmock/rspec'
 
-require_relative './../html_parser'
-require_relative './../image_extractor'
+require_relative './../utils/html_parser'
+require_relative './../utils/image_extractor'
 
 describe ImageExtractor do
   context 'args validation' do
