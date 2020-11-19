@@ -7,3 +7,5 @@ For specs, requests to external websites are blocked, and requests to a specific
 The rake task can be run as below:
 
 rake find_images\[http://google.com\] # please note the escape character, should work without them in bash, but has problems in zsh and fish etc.
+
+Exceptions while accessing non existing web addresses have been caught, and returned as a warning message.
